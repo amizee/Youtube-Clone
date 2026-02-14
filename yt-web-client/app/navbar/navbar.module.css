@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.logo {
+  display: inline-flex;
+  width: 6em;
+}
+
+.logoImg {
+  width: 100%;
+  height: auto;
+}
