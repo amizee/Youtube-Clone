@@ -1,5 +1,6 @@
 import { signInWithGoogle, signOut } from "../firebase/firebase";
 import { User } from "firebase/auth";
+import { Button } from "@/components/ui/button";
 
 import styles from "./sign-in.module.css";
 
@@ -12,13 +13,13 @@ export default function SignIn ({ user }: SignInProps) {
   return (
     <div>
       { user ? (
-          <button className={styles.signin} onClick={signOut}>
+          <Button variant="outline" size="lg" onClick={signOut}>
             Sign Out
-          </button>
+          </Button>
         ) : (
-          <button className={styles.signin} onClick={signInWithGoogle}>
+          <Button size="lg" onClick={signInWithGoogle}>
             Sign In
-          </button>
+          </Button>
         )
       }
     </div>

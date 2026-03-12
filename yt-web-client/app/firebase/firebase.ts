@@ -1,7 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User } from "firebase/auth";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDc81eaYXKMGtnlXsoDkJ3ITtDE-6Ig5pg",
   authDomain: "yt-clone-5fbad.firebaseapp.com",
@@ -11,7 +10,6 @@ const firebaseConfig = {
   appId: "1:658264785468:web:b8d569f35cd57757e73939"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);

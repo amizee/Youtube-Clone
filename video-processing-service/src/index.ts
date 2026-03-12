@@ -8,6 +8,7 @@ import {
   convertVideo,
   setupDirectories
 } from './storage';
+import { readFile } from 'fs';
 
 // Create the local directories for videos
 setupDirectories();
