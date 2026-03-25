@@ -10,7 +10,7 @@ initializeApp();
 const firestore = new Firestore();
 const storage = new Storage();
 
-const rawVideoBucketName = "  ";
+const rawVideoBucketName = "k-yt-clone-raw-videos";
 
 export const createUser = functions.auth.user().onCreate(async (user) => {
   const userInfo = {

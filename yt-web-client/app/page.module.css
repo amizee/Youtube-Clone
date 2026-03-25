@@ -1,3 +1,7 @@
 .main h1 {
   font-size: 2em;
 }
+
+.thumbnail {
+  margin: 1em;
+}
